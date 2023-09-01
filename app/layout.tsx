@@ -15,6 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+        <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css"></link>
+        <script src="https://js.arcgis.com/4.20/"></script>
       <body className={inter.className}>
         {children}
       </body>
